@@ -39,17 +39,35 @@
                 through the navigation menu.</p>
         </div>
 
-        <div class="flex-container">
-            <img src="AT WORK.jpg " width="450" height="400" alt="AT WORK Image">
-            <img src="BESSY2.jpg" width="450" height="400" alt="BESSY2 Image">
-            <img src="SITE AT WORK.jpg" width="450" height="400" alt="SITE AT WORK Image">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="AT WORK.jpg" class="d-block w-100" alt="AT WORK Image" width="250" height="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="BESSY2.jpg" class="d-block w-100" alt="BESSY2 Image" width="250" height="400">
+                </div>
+                <div class="carousel-item">
+                    <img src="SITE AT WORK.jpg" class="d-block w-100" alt="SITE AT WORK Image" width="250" height="400">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
     </main>
 </body>
 <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+
+
+        </script>
 </footer>
 
 </html>
